@@ -69,6 +69,13 @@ Image-processing quality inspection demo using Python, OpenCV, NumPy, and pytest
 - Implemented logic for one good image and four separate defect images
 - Added pytest validation and GitHub documentation
 
+### Automotive Indicator Control ECU Demo
+Arduino-based embedded systems project for basic automotive indicator control logic.
+
+- Implemented left, right, and hazard indicator control using Arduino Uno
+- Used GPIO input handling, LED output control, millis()-based timing logic, and UART serial logging
+- Documented system architecture, validation test cases, and firmware workflow on GitHub
+
 ### Backend API Demo using FastAPI
 Backend API demo using Python, FastAPI, pytest, and Docker setup.
 
@@ -83,7 +90,7 @@ UI automation demo using Python, Playwright, pytest, pytest-html, and GitHub.
 - Verified Products page navigation and error-message validation
 - Generated HTML test report using pytest-html
 
-### Edge AI Voice Assistant using Raspberry Pi
+### Edge AI Voice Assistant using Raspberry Pi(Ongoing)
 Embedded AI project using Raspberry Pi, local LLM integration, speech processing, and GPIO control.
 
 - Designed an edge AI-based embedded voice assistant
