@@ -1,96 +1,184 @@
 # Hi, I'm Rohan Rosario Ravikanth
 
-Master's student in Electrical and Microsystems Engineering at OTH Regensburg, focused on Embedded Systems, Automation, Validation, Machine Vision, and Python-based engineering projects.
+Master's student in Electrical and Microsystems Engineering at OTH Regensburg, focused on Embedded Systems, Software Testing, Automation, IoT, Python-based tools, and AI-assisted measurement data analysis.
 
-## About Me
+I build practical projects that connect software, testing, embedded systems, data analysis, and real-world engineering use cases.
 
-- Master's student in Electrical and Microsystems Engineering, Germany
-- Interested in Embedded Systems, Software Testing, Automation, Validation, and Computer Vision
-- Experience with industrial automation, machine vision systems, system testing, debugging, and test documentation
-- Building practical GitHub projects in Python, Playwright, FastAPI, OpenCV, and Raspberry Pi
+## Technical Focus
+
+- Embedded Systems
+- Software Testing and QA Automation
+- Python-based Engineering Tools
+- IoT and Energy Management
+- Measurement Data Analysis
+- Computer Vision and Machine Vision
+- Backend API Development
+- GitHub-based Technical Documentation
 
 ## Skills
 
-### Programming
+### Programming and Scripting
+
 - Python
 - C
 - C++
-- Basic HTML
+- TypeScript basics
+- JavaScript basics
+- HTML
+- CSS
 
-### Testing & Validation
-- System Testing
+### Testing and Validation
+
+- Manual Testing
 - Functional Testing
-- Debugging
-- Root Cause Analysis
-- Test Automation Basics
+- UI Test Automation
+- Playwright
 - pytest
+- Test Case Design
+- Bug Reporting
+- Test Summary Reports
+- GitHub Actions CI
 - Basic ECU Testing Understanding
 
-### Embedded Systems & Automation
+### Embedded Systems and IoT
+
 - Raspberry Pi
-- Arduino
+- Arduino Uno
 - GPIO
+- UART
+- Embedded C/C++
 - Hardware-Software Integration
 - Basic PLC Exposure
-- Machine Vision Systems
+- Sensor Data Simulation
+- IoT Control Logic
 
-### Tools & Technologies
+### Data Analysis and AI-Assisted Workflows
+
+- pandas
+- CSV and Excel Data Handling
+- Missing-Value Detection
+- Data Cleaning
+- Plausibility Checks
+- AI-Agent Style Decision Workflows
+- Measurement Data Analysis
+- Matplotlib Visualization
+
+### Tools
+
 - Git
 - GitHub
+- VS Code
 - MATLAB
 - Simulink
-- NumPy (Basic)
-- OpenCV (Basic)
-- MS Excel
-- MS PowerPoint
+- NumPy
+- OpenCV
+- SQLAlchemy
+- FastAPI
+- SQLite
 - Oscilloscope
 - Multimeter
-- Basic LabVIEW Exposure
 
-## Interests
+## Featured Projects
 
-- Embedded Systems
-- Software Testing & QA Automation
-- Industrial Automation
-- Computer Vision
-- Machine Vision Inspection
-- Edge AI Applications
-- Automotive Electronics
-- IoT and Raspberry Pi Projects
+### AI Agent for Missing-Data Analysis
 
-## Projects
+Python-based AI-assisted workflow for detecting, analyzing, visualizing, and handling missing values in CSV/Excel transformer-style measurement data.
 
-### OpenCV Quality Inspection Demo
-Image-processing quality inspection demo using Python, OpenCV, NumPy, and pytest.
+- Reads CSV and Excel measurement datasets
+- Detects missing values per column and calculates missing-value percentage
+- Recommends interpolation, mean replacement, ignore, or manual review strategies
+- Generates missing-value visualizations such as percentage chart and missing-value matrix
+- Performs plausibility checks for phase currents and neutral current
+- Detects phase-current imbalance and high neutral-current conditions
+- Generates cleaned CSV output and a Markdown analysis report
+- Includes pytest-based automated tests
+- Uses GitHub Actions for automatic test execution on every push
 
-- Classified industrial part images as OK or defective
-- Applied grayscale conversion, thresholding, and contour detection
-- Detected circular, rectangular, and crack-like defects
-- Implemented logic for one good image and four separate defect images
-- Added pytest validation and GitHub documentation
+Repository:  
+https://github.com/rohanr2906-byte/ai-agent-missing-data-analysis
+
+### Smart Heating IoT Demo
+
+Simulated multi-zone smart heating control system using Python, CSV temperature readings, automatic day/night heating profiles, hysteresis logic, energy estimation, and dashboard visualization.
+
+- Supports Living Room, Garden, Kitchen, Bedroom, and Parking zones
+- Uses day/night heating profiles
+- Applies hysteresis-based heating control
+- Estimates energy usage per zone
+- Generates HTML dashboard with charts
+- Includes pytest tests and GitHub Actions CI
+
+Repository:  
+https://github.com/rohanr2906-byte/smart-heating-iot-demo
+
+### Playwright TypeScript UI Test Automation Demo
+
+UI test automation demo using Playwright with TypeScript and Page Object Model.
+
+- Automates successful login test
+- Automates invalid login test
+- Validates Products page navigation
+- Validates error message behavior
+- Uses Page Object Model structure
+- Generates Playwright HTML report
+
+Repository:  
+https://github.com/rohanr2906-byte/ui-test-automation-playwright
+
+### DemoShop Mobile QA Testing Project
+
+Working mock mobile shopping web app with manual QA documentation and Playwright-based automated testing.
+
+- Created mock mobile shopping app using HTML, CSS, and JavaScript
+- Tested login, product search, cart, checkout, and logout workflows
+- Added functional test cases, bug reports, and test summary report
+- Added Playwright automated UI tests and responsive mobile viewport testing
+- Generated HTML automation report
+
+Repository:  
+https://github.com/rohanr2906-byte/mobile-app-qa-test-plan-demo
 
 ### Automotive Indicator Control ECU Demo
+
 Arduino-based embedded systems project for basic automotive indicator control logic.
 
-- Implemented left, right, and hazard indicator control using Arduino Uno
-- Used GPIO input handling, LED output control, millis()-based timing logic, and UART serial logging
-- Documented system architecture, validation test cases, and firmware workflow on GitHub
+- Implemented left, right, and hazard indicator control
+- Used GPIO input handling and LED output control
+- Applied millis-based timing logic
+- Added UART serial logging
+- Documented system architecture, wiring, validation test cases, and firmware workflow
+
+Repository:  
+https://github.com/rohanr2906-byte/gray-indicator-control-ecu
+
+### OpenCV Quality Inspection Demo
+
+Python and OpenCV-based image processing demo for industrial part inspection.
+
+- Detects circular, rectangular, and crack-like defects
+- Uses grayscale conversion, thresholding, and contour detection
+- Classifies parts as OK or defective
+- Includes pytest validation and GitHub documentation
+
+Repository:  
+https://github.com/rohanr2906-byte/opencv-quality-inspection-demo
 
 ### Backend API Demo using FastAPI
-Backend API demo using Python, FastAPI, pytest, and Docker setup.
 
-- Built REST API endpoints with CRUD operations
-- Added logging and pytest test cases
-- Documented setup and execution steps on GitHub
+REST API demo using Python, FastAPI, SQLAlchemy, SQLite, pytest, and Docker setup.
 
-### UI Test Automation Demo using Playwright
-UI automation demo using Python, Playwright, pytest, pytest-html, and GitHub.
+- Built CRUD API endpoints
+- Integrated database handling using SQLAlchemy and SQLite
+- Added logging and pytest tests
+- Documented setup and API workflow on GitHub
 
-- Automated successful and invalid login scenarios
-- Verified Products page navigation and error-message validation
-- Generated HTML test report using pytest-html
+Repository:  
+https://github.com/rohanr2906-byte/backend-api-demo-fastapi
 
-### Edge AI Voice Assistant using Raspberry Pi(Ongoing)
+## Academic and Embedded Projects
+
+### Edge AI Voice Assistant using Raspberry Pi - Ongoing
+
 Embedded AI project using Raspberry Pi, local LLM integration, speech processing, and GPIO control.
 
 - Designed an edge AI-based embedded voice assistant
@@ -98,6 +186,7 @@ Embedded AI project using Raspberry Pi, local LLM integration, speech processing
 - Implemented real-time speech processing and hardware control logic
 
 ### Anti-Theft Smart Billing System
+
 RFID and load-cell-based automated billing system with a robotic trolley.
 
 - Implemented real-time tracking and weight-based control
@@ -105,18 +194,46 @@ RFID and load-cell-based automated billing system with a robotic trolley.
 - Built as an embedded systems project during B.Tech
 
 ### Anti-lock Braking System Study
+
 Automotive electronics project based on ABS behavior and wheel speed sensor analysis.
 
 - Analyzed wheel speed sensor data
 - Studied real-time braking response and control system behavior
 - Gained exposure to automotive system integration
 
+## Project Areas
+
+| Area | Projects |
+|---|---|
+| AI-assisted data analysis | AI Agent for Missing-Data Analysis |
+| IoT and energy management | Smart Heating IoT Demo |
+| QA automation | Playwright TypeScript UI Test Automation Demo |
+| Mobile QA testing | DemoShop Mobile QA Testing Project |
+| Embedded systems | Automotive Indicator Control ECU Demo, Edge AI Voice Assistant, Anti-Theft Smart Billing System |
+| Automotive electronics | Automotive Indicator Control ECU Demo, Anti-lock Braking System Study |
+| Computer vision | OpenCV Quality Inspection Demo |
+| Backend development | FastAPI Backend API Demo |
+
+## What I Am Building Toward
+
+I am focused on developing strong practical skills for roles in:
+
+- Embedded Systems Engineering
+- Software Testing and QA Automation
+- IoT and Energy Management
+- Industrial Automation
+- Measurement Data Analysis
+- Automotive and Electronics Testing
+- Python-based Engineering Tool Development
+
 ## Languages
 
 - English: C1
 - German: B1, actively improving toward B2
 
-## Connect with Me
+## Contact
 
-- Email: rohan.r2906@gmail.com
-- Location: Germany
+Email: rohan.r2906@gmail.com
+
+GitHub:  
+https://github.com/rohanr2906-byte
