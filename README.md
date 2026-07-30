@@ -177,13 +177,20 @@ https://github.com/rohanr2906-byte/backend-api-demo-fastapi
 
 ## Academic and Embedded Projects
 
-### Edge AI Voice Assistant using Raspberry Pi - Ongoing
+ ### Development and Evaluation of an Intelligent Voice Assistant — Ongoing
 
-Embedded AI project using Raspberry Pi, local LLM integration, speech processing, and GPIO control.
+Developing and evaluating a privacy-focused AI voice assistant that runs locally without relying on cloud-based language models.
 
-- Designed an edge AI-based embedded voice assistant
-- Integrated local AI models with Raspberry Pi
-- Implemented real-time speech processing and hardware control logic
+* Developed a functional Windows-based AI voice assistant using **Python, Ollama, and offline Whisper speech recognition**.
+* Implemented voice and keyboard interaction, response streaming, conversation memory, multilingual support, microphone detection, and noise-handling features.
+* Added weather queries, lecture transcription, structured note generation, summaries, action items, and revision-question generation.
+* Evaluated response time, speech-recognition accuracy, CPU usage, and overall assistant performance.
+* Generated structured **CSV and Excel evaluation reports** for analysing test results.
+* Cross-platform code refactoring and deployment on **Raspberry Pi** are currently in progress.
+
+**Technologies:** Python, Ollama, Whisper, Local LLMs, Speech Recognition, Text-to-Speech, pandas, CSV, Excel, Raspberry Pi
+
+
 
 ### Anti-Theft Smart Billing System
 
