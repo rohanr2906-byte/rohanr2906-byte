@@ -80,125 +80,102 @@ I build practical projects that connect software, testing, embedded systems, dat
 
 ## Featured Projects
 
-### AI Agent for Missing-Data Analysis
+## GitHub Projects
 
-Python-based AI-assisted workflow for detecting, analyzing, visualizing, and handling missing values in CSV/Excel transformer-style measurement data.
+### Data Analysis, AI & Automation
 
-- Reads CSV and Excel measurement datasets
-- Detects missing values per column and calculates missing-value percentage
-- Recommends interpolation, mean replacement, ignore, or manual review strategies
-- Generates missing-value visualizations such as percentage chart and missing-value matrix
-- Performs plausibility checks for phase currents and neutral current
-- Detects phase-current imbalance and high neutral-current conditions
-- Generates cleaned CSV output and a Markdown analysis report
-- Includes pytest-based automated tests
-- Uses GitHub Actions for automatic test execution on every push
+#### [AI Agent for Missing-Data Analysis]
+(https://github.com/rohanr2906-byte/ai-agent-missing-data-analysis)
 
-Repository:  
-https://github.com/rohanr2906-byte/ai-agent-missing-data-analysis
+* Developed a Python-based workflow for detecting, analysing, visualising, and handling missing values in CSV and Excel measurement data.
+* Implemented rule-based strategy recommendations, phase-current and neutral-current plausibility checks, automated reports, visualisations, pytest tests, and GitHub Actions.
+* **Technologies:** Python, pandas, openpyxl, Matplotlib, pytest, GitHub Actions
 
-### Smart Heating IoT Demo
+#### [AI Workflow Automation System]
+(https://github.com/rohanr2906-byte/ai-workflow-automation)
 
-Simulated multi-zone smart heating control system using Python, CSV temperature readings, automatic day/night heating profiles, hysteresis logic, energy estimation, and dashboard visualization.
+* Developed a Python workflow that reads task data from CSV files, processes the information, and generates an automated summary report.
+* **Technologies:** Python, pandas, CSV
 
-- Supports Living Room, Garden, Kitchen, Bedroom, and Parking zones
-- Uses day/night heating profiles
-- Applies hysteresis-based heating control
-- Estimates energy usage per zone
-- Generates HTML dashboard with charts
-- Includes pytest tests and GitHub Actions CI
+#### [OpenCV Quality Inspection Demo]
+(https://github.com/rohanr2906-byte/opencv-quality-inspection-demo)
 
-Repository:  
-https://github.com/rohanr2906-byte/smart-heating-iot-demo
+* Developed an image-processing demo for identifying defects in sample industrial-part images.
+* Applied grayscale conversion, thresholding, contour analysis, and defect-classification logic with basic automated validation.
+* **Technologies:** Python, OpenCV, NumPy, pytest
 
-### Playwright TypeScript UI Test Automation Demo
+---
 
-UI test automation demo using Playwright with TypeScript and Page Object Model.
+### Embedded Systems, Electronics & IoT
 
-- Automates successful login test
-- Automates invalid login test
-- Validates Products page navigation
-- Validates error message behavior
-- Uses Page Object Model structure
-- Generates Playwright HTML report
+#### [Automotive Indicator Control ECU Demo]
+(https://github.com/rohanr2906-byte/gray-indicator-control-ecu)
 
-Repository:  
-https://github.com/rohanr2906-byte/ui-test-automation-playwright
+* Developed an Arduino-based automotive indicator control module supporting left, right, hazard, and indicator-off functions.
+* Implemented GPIO input handling, LED control, non-blocking timing with `millis()`, UART debug logging, wiring documentation, and validation test cases.
+* **Technologies:** Arduino Uno, Embedded C/C++, GPIO, UART, Arduino IDE
 
-### DemoShop Mobile QA Testing Project
+#### [Smart Heating IoT Demo]
+(https://github.com/rohanr2906-byte/smart-heating-iot-demo)
 
-Working mock mobile shopping web app with manual QA documentation and Playwright-based automated testing.
+* Developed a simulated multi-zone heating-control system using CSV-based temperature measurements and automatic day and night profiles.
+* Implemented hysteresis-based control, energy-consumption estimation, CSV logging, automated tests, GitHub Actions, and an HTML dashboard.
+* **Technologies:** Python, Matplotlib, pytest, HTML, CSV, GitHub Actions
 
-- Created mock mobile shopping app using HTML, CSS, and JavaScript
-- Tested login, product search, cart, checkout, and logout workflows
-- Added functional test cases, bug reports, and test summary report
-- Added Playwright automated UI tests and responsive mobile viewport testing
-- Generated HTML automation report
+#### [LED Indicator PCB]
+(https://github.com/rohanr2906-byte/LED_Indicator_Board)
 
-Repository:  
-https://github.com/rohanr2906-byte/mobile-app-qa-test-plan-demo
+* Designed a functional LED indicator PCB to practise the complete PCB-development workflow.
+* Created the schematic, assigned footprints, routed the PCB, performed ERC and DRC checks, generated the 3D model, and exported manufacturing-ready Gerber and drill files.
+* **Technologies:** KiCad 10, Schematic Editor, PCB Editor, 3D Viewer
 
-### Automotive Indicator Control ECU Demo
+---
 
-Arduino-based embedded systems project for basic automotive indicator control logic.
+### Software Development, Testing & QA
 
-- Implemented left, right, and hazard indicator control
-- Used GPIO input handling and LED output control
-- Applied millis-based timing logic
-- Added UART serial logging
-- Documented system architecture, wiring, validation test cases, and firmware workflow
+#### [Playwright TypeScript UI Test Automation]
+(https://github.com/rohanr2906-byte/ui-test-automation-playwright)
 
-Repository:  
-https://github.com/rohanr2906-byte/gray-indicator-control-ecu
+* Developed automated UI tests for successful and unsuccessful login scenarios on the SauceDemo web application.
+* Used the Page Object Model to separate page selectors, user actions, and test logic, with validation of products, inventory items, URLs, and error messages.
+* **Technologies:** Playwright, TypeScript, Node.js, Page Object Model, HTML Reporting
 
-### OpenCV Quality Inspection Demo
+#### [DemoShop Mobile QA Testing Project]
+(https://github.com/rohanr2906-byte/mobile-app-qa-test-plan-demo)
 
-Python and OpenCV-based image processing demo for industrial part inspection.
+* Developed and tested a responsive mock mobile shopping application with login, product search, cart, checkout, order confirmation, and logout functionality.
+* Prepared manual test cases, bug reports, screenshot evidence, test-summary documentation, and automated mobile-viewport tests.
+* **Technologies:** Python, Playwright, pytest, HTML, CSS, JavaScript, Manual Testing
 
-- Detects circular, rectangular, and crack-like defects
-- Uses grayscale conversion, thresholding, and contour detection
-- Classifies parts as OK or defective
-- Includes pytest validation and GitHub documentation
+#### [Backend API Demo using FastAPI]
+(https://github.com/rohanr2906-byte/backend-api-demo-fastapi)
 
-Repository:  
-https://github.com/rohanr2906-byte/opencv-quality-inspection-demo
+* Developed a backend API demonstration with database integration and automated test coverage.
+* Organised the application into separate API and testing components with a local SQLite task database.
+* **Technologies:** Python, FastAPI, SQLAlchemy, pytest, SQLite
 
-### Backend API Demo using FastAPI
+---
 
-REST API demo using Python, FastAPI, SQLAlchemy, SQLite, pytest, and Docker setup.
+## Additional Academic Projects
 
-- Built CRUD API endpoints
-- Integrated database handling using SQLAlchemy and SQLite
-- Added logging and pytest tests
-- Documented setup and API workflow on GitHub
+### Development and Evaluation of an Intelligent Voice Assistant — Ongoing
 
-Repository:  
-https://github.com/rohanr2906-byte/backend-api-demo-fastapi
+* Developed a Windows-based local AI voice assistant using Python, Ollama, and offline Whisper for voice and keyboard interaction.
+* Added multilingual conversations, memory, streaming responses, weather information, lecture transcription, summaries, structured notes, action items, and revision questions.
+* Evaluated response time, speech-recognition accuracy, and system performance, with results exported to CSV and Excel. Cross-platform development and Raspberry Pi deployment are currently in progress.
 
-## Academic and Embedded Projects
-
- ### Development and Evaluation of an Intelligent Voice Assistant — Ongoing
-
-Developing and evaluating a privacy-focused AI voice assistant that runs locally without relying on cloud-based language models.
-
-* Developed a functional Windows-based AI voice assistant using **Python, Ollama, and offline Whisper speech recognition**.
-* Implemented voice and keyboard interaction, response streaming, conversation memory, multilingual support, microphone detection, and noise-handling features.
-* Added weather queries, lecture transcription, structured note generation, summaries, action items, and revision-question generation.
-* Evaluated response time, speech-recognition accuracy, CPU usage, and overall assistant performance.
-* Generated structured **CSV and Excel evaluation reports** for analysing test results.
-* Cross-platform code refactoring and deployment on **Raspberry Pi** are currently in progress.
-
-**Technologies:** Python, Ollama, Whisper, Local LLMs, Speech Recognition, Text-to-Speech, pandas, CSV, Excel, Raspberry Pi
-
-
-
- ### Anti-Theft Smart Billing System
+### Anti-Theft Smart Billing System
 
 * Developed an automated smart billing system using RFID, a load cell, and a microcontroller-controlled robotic trolley.
+* Implemented real-time product identification, item tracking, weight verification, and billing validation to detect unauthorised item additions or removals.
+* Designed, integrated, and tested the hardware using RFID and weight sensors, an LM7805 voltage-regulation circuit, and embedded control logic.
 
-* Implemented real-time product identification, item tracking, weight verification, and billing validation to detect unauthorized item additions or removals.
+### Anti-lock Braking System Study
 
-* Designed, integrated, and tested the hardware using RFID and weight sensors, an LM7805 voltage regulation circuit, and embedded control logic.
+* Studied anti-lock braking system behaviour using wheel-speed sensor information and braking-control principles.
+* Analysed the relationship between wheel-speed variation, wheel locking, and real-time braking response.
+* Gained practical understanding of automotive electronic control and system integration.
+
 
 
 
