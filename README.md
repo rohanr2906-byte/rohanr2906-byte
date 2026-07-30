@@ -192,21 +192,15 @@ Developing and evaluating a privacy-focused AI voice assistant that runs locally
 
 
 
-### Anti-Theft Smart Billing System
+ ### Anti-Theft Smart Billing System
 
-RFID and load-cell-based automated billing system with a robotic trolley.
+* Developed an automated smart billing system using RFID, a load cell, and a microcontroller-controlled robotic trolley.
 
-- Implemented real-time tracking and weight-based control
-- Designed hardware using a microcontroller and voltage regulation
-- Built as an embedded systems project during B.Tech
+* Implemented real-time product identification, item tracking, weight verification, and billing validation to detect unauthorized item additions or removals.
 
-### Anti-lock Braking System Study
+* Designed, integrated, and tested the hardware using RFID and weight sensors, an LM7805 voltage regulation circuit, and embedded control logic.
 
-Automotive electronics project based on ABS behavior and wheel speed sensor analysis.
 
-- Analyzed wheel speed sensor data
-- Studied real-time braking response and control system behavior
-- Gained exposure to automotive system integration
 
 ## Project Areas
 
